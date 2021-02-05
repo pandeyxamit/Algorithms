@@ -6,4 +6,5 @@
 ## Table Of contents:
  - [Binary Search](./BinarySearch)
  - [Selection Sort](./SelectionSort)
-   
+ - [Quick Sort](./QuickSort)
+ - 
