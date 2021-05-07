@@ -6,3 +6,4 @@ def quickSort(arr):
         smaller = [i for i in arr[1:] if i <= pivot]
         larger = [i for i in arr[1:] if i > pivot]
         return quickSort(smaller) + [pivot] + quickSort(larger)
+        
