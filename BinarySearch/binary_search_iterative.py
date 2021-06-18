@@ -5,7 +5,7 @@ def binary_search_iter(arr, item):
         mid = low + (high - low) // 2
         guess = arr[mid]
         if guess == item:
-            return "Item {} found at index {} in the array.\n".format(item, mid)
+            return "Item {} found at index {} in the array after {} iteration.\n".format(item, mid, iteration)
         if guess < item:
             low = mid + 1
         else:
